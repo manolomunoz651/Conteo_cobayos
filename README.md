@@ -59,7 +59,7 @@ El dataset fue dividido cuidadosamente para garantizar un entrenamiento equilibr
 Para ejecutar este proyecto, necesitarás lo siguiente:
 
 1. **Google Colab** (recomendado para entrenamiento).  
-2. **Python 3.x** instalado en tu sistema.  
+2. **Python** instalado en tu sistema.  
 3. Las siguientes bibliotecas de Python:  
    - `opencv-python`  
    - `ultralytics` (para YOLOv11)  
@@ -90,7 +90,7 @@ pip install opencv-python ultralytics
 
 El modelo entrenado logró un rendimiento sólido en la detección y conteo de cobayos. A continuación, se muestran algunos ejemplos de las predicciones realizadas por el modelo:
 
-*(Aquí puedes agregar imágenes o gráficos mostrando ejemplos de detección. Puedes usar Markdown para insertar imágenes: `![Descripción](URL_IMAGEN)`)*
+![Ejemplo de detección de cobayos]([images/ejemplo.jpg](https://github.com/manolomunoz651/Conteo_cobayos/blob/main/photo_5017113257835605701_w.jpg))
 
 ---
 

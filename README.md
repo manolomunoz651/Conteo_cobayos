@@ -90,12 +90,9 @@ pip install opencv-python ultralytics
 
 El modelo entrenado logró un rendimiento sólido en la detección y conteo de cobayos. A continuación, se muestran algunos ejemplos de las predicciones realizadas por el modelo:
 
-![Ejemplo de detección de cobayos]([images/ejemplo.jpg](https://github.com/manolomunoz651/Conteo_cobayos/blob/main/photo_5017113257835605701_w.jpg))
+<img src="https://github.com/manolomunoz651/Conteo_cobayos/blob/main/photo_5017113257835605701_w.jpg" width="400" alt="Matriz de confusión">
 
-![Ejemplo de detección](https://github.com/manolomunoz651/Conteo_cobayos/blob/main/photo_5017113257835605701_w.jpg)
-
-https://github.com/manolomunoz651/Conteo_cobayos/blob/main/photo_5017113257835605702_w.jpg
-
+<img src="https://github.com/manolomunoz651/Conteo_cobayos/blob/main/photo_5017113257835605702_w.jpg" width="600" alt="Ejemplo de detección de cobayos">
 ---
 
 ## Contribuciones

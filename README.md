@@ -7,9 +7,6 @@ Detector y Contador de Cobayos (Cuyes) con YOLOv11 Este proyecto utiliza un data
 
 # Detector y Contador de Cobayos (Cuyes) con YOLOv11
 
-![GitHub Logo](https://via.placeholder.com/800x200?text=YOLOv11+Cobayos+Detector)  
-*(Puedes reemplazar la URL anterior con una imagen representativa de tu proyecto si deseas)*
-
 Este proyecto implementa un modelo de detección y conteo de cobayos (cuyes) utilizando **YOLOv11**, un algoritmo avanzado de visión por computadora. El modelo fue entrenado con un dataset propio, diseñado específicamente para identificar y contar cobayos en imágenes. Este trabajo tiene aplicaciones potenciales en agricultura, investigación científica y automatización de granjas.
 
 ---
@@ -53,7 +50,7 @@ El dataset fue dividido cuidadosamente para garantizar un entrenamiento equilibr
 - **Google Colab**: Entorno de desarrollo en la nube utilizado para entrenar el modelo.  
 - **Python**: Lenguaje de programación principal utilizado en el proyecto.  
 - **OpenCV**: Biblioteca utilizada para procesamiento de imágenes y visualización de resultados.  
-- **LabelImg**: Herramienta para etiquetar las imágenes del dataset.  
+- **Roboflow**: Herramienta para etiquetar las imágenes del dataset.  
 
 ---
 
@@ -65,34 +62,26 @@ Para ejecutar este proyecto, necesitarás lo siguiente:
 2. **Python 3.x** instalado en tu sistema.  
 3. Las siguientes bibliotecas de Python:  
    - `opencv-python`  
-   - `torch`  
    - `ultralytics` (para YOLOv11)  
-   - `matplotlib` (opcional, para visualización).  
+
 
 Puedes instalar las dependencias necesarias ejecutando el siguiente comando:
 
 ```bash
-pip install opencv-python torch ultralytics matplotlib
+pip install opencv-python ultralytics 
 ```
 
 ---
 
 ## Instrucciones de Uso
 
-1. **Clonar el Repositorio**  
-   Clona este repositorio en tu máquina local usando el siguiente comando:
+1. **Preparar el Dataset**  
+   Asegúrate de tener el dataset organizado en las carpetas `train`, `val` y `test`. Si deseas usar tu propio dataset, etiqueta las imágenes utilizando la herramienta **Roboflow**.
 
-   ```bash
-   git clone https://github.com/TU_USUARIO/TU_REPOSITORIO.git
-   ```
-
-2. **Preparar el Dataset**  
-   Asegúrate de tener el dataset organizado en las carpetas `train`, `val` y `test`. Si deseas usar tu propio dataset, etiqueta las imágenes utilizando una herramienta como **LabelImg**.
-
-3. **Entrenar el Modelo**  
+2. **Entrenar el Modelo**  
    Sube el código a Google Colab y ejecuta el script de entrenamiento. Asegúrate de configurar correctamente las rutas del dataset.
 
-4. **Probar el Modelo**  
+3. **Probar el Modelo**  
    Una vez entrenado, puedes probar el modelo cargando imágenes de prueba y visualizando las detecciones.
 
 ---

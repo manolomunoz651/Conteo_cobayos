@@ -93,23 +93,6 @@ El modelo entrenado logró un rendimiento sólido en la detección y conteo de c
 <img src="https://github.com/manolomunoz651/Conteo_cobayos/blob/main/photo_5017113257835605701_w.jpg" width="400" alt="Matriz de confusión">
 
 <img src="https://github.com/manolomunoz651/Conteo_cobayos/blob/main/photo_5017113257835605702_w.jpg" width="600" alt="Ejemplo de detección de cobayos">
----
-
-## Contribuciones
-
-¡Las contribuciones son bienvenidas! Si deseas mejorar este proyecto, sigue estos pasos:
-
-1. Haz un fork del repositorio.  
-2. Crea una nueva rama (`git checkout -b feature/nueva-funcionalidad`).  
-3. Realiza tus cambios y haz commit (`git commit -m "Añadir nueva funcionalidad"`).  
-4. Envía tus cambios (`git push origin feature/nueva-funcionalidad`).  
-5. Abre un pull request.  
-
----
-
-## Licencia
-
-Este proyecto está bajo la licencia **MIT**. Consulta el archivo [LICENSE](LICENSE) para más detalles.
 
 ---
 

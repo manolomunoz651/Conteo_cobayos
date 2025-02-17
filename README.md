@@ -92,6 +92,10 @@ El modelo entrenado logró un rendimiento sólido en la detección y conteo de c
 
 ![Ejemplo de detección de cobayos]([images/ejemplo.jpg](https://github.com/manolomunoz651/Conteo_cobayos/blob/main/photo_5017113257835605701_w.jpg))
 
+![Ejemplo de detección](https://github.com/manolomunoz651/Conteo_cobayos/blob/main/photo_5017113257835605701_w.jpg)
+
+https://github.com/manolomunoz651/Conteo_cobayos/blob/main/photo_5017113257835605702_w.jpg
+
 ---
 
 ## Contribuciones

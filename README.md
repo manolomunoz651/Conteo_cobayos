@@ -19,8 +19,6 @@ Este proyecto implementa un modelo de detección y conteo de cobayos (cuyes) uti
 4. [Requisitos](#requisitos)
 5. [Instrucciones de Uso](#instrucciones-de-uso)
 6. [Resultados](#resultados)
-7. [Contribuciones](#contribuciones)
-8. [Licencia](#licencia)
 
 ---
 
